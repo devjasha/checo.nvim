@@ -22,6 +22,7 @@ local function set_terminal_colors()
 	vim.g.terminal_color_13 = colors.red
 	vim.g.terminal_color_14 = colors.orangeLight
 	vim.g.terminal_color_15 = colors.comment
+	vim.g.terminal_color_16 = colors.string
 	vim.g.terminal_color_background = colors.bg
 	vim.g.terminal_color_foreground = colors.fg
 end
