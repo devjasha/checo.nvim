@@ -35,14 +35,16 @@ if vim.o.background == "light" then
 	colors.comment = "#848484"
 	colors.orangeLight = "#dd8500"
 	colors.green = "#22863a"
-	colors.yellowDark = "#f29c14"
+	colors.yellowDark = "#cd9731"
 	colors.purpleDark = "#800080"
 	colors.symbol = "#a1a1a1"
 	colors.primary = "#000000"
 	colors.terminalbrightblack = "#333333"
+
+	colors.string = "#f29c14"
 else
 	-- background colors
-	colors.bg = config.transparent and "NONE" or "#212121"
+	colors.bg = config.transparent and "NONE" or "#1e2025"
 	colors.bgDark = "#1A1A1A"
 	colors.bgDarker = "#292929"
 	colors.bgFloat = "#383838"
