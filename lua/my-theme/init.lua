@@ -211,7 +211,7 @@ local function set_groups()
 		-- ["@define"] = {},
 		-- ["@macro"] = {},
 		["@string"] = { link = "String" },
-		["@string.escape"] = { fg = utils.shade(colors.orangeLight, 0.45) },
+		["@string.escape"] = { fg = utils.shade(colors.string, 0.45) },
 		["@string.special"] = { fg = utils.shade(colors.blue, 0.45) },
 		-- ["@character"] = {},
 		-- ["@character.special"] = {},
