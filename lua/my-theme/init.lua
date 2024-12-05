@@ -103,7 +103,7 @@ local function set_groups()
 		Float = { link = "Number" },
 
 		Identifier = { fg = colors.fg },
-		Function = { fg = colors.purple },
+		Function = { fg = colors.functionUI },
 		Method = { fg = colors.purple },
 		Property = { fg = colors.blue },
 		Field = { link = "Property" },

@@ -42,6 +42,7 @@ if vim.o.background == "light" then
 	colors.terminalbrightblack = "#333333"
 
 	colors.string = "#f29c14"
+	colors.functionUI = "#fee56c"
 else
 	-- background colors
 	colors.bg = config.transparent and "NONE" or "#1e2025"
@@ -79,6 +80,7 @@ else
 	colors.terminalBrightBlack = "#5c5c5c"
 
 	colors.string = "#f29c14"
+	colors.functionUI = "#fee56c"
 end
 
 return colors
