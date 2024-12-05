@@ -96,7 +96,7 @@ local function set_groups()
 		Comment = { fg = colors.comment, italic = config.italics.comments or false },
 
 		Constant = { fg = colors.red },
-		String = { fg = colors.orangeLight, italic = config.italics.strings or false },
+		String = { fg = colors.string, italic = config.italics.strings or false },
 		Character = { fg = colors.orangeLight },
 		Number = { fg = colors.primary, bold = true },
 		Boolean = { fg = colors.blue },
