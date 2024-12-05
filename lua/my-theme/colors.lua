@@ -35,7 +35,7 @@ if vim.o.background == "light" then
 	colors.comment = "#848484"
 	colors.orangeLight = "#dd8500"
 	colors.green = "#22863a"
-	colors.yellowDark = "##f29c14"
+	colors.yellowDark = "#f29c14"
 	colors.purpleDark = "#800080"
 	colors.symbol = "#a1a1a1"
 	colors.primary = "#000000"
@@ -75,6 +75,8 @@ else
 	colors.symbol = "#bbbbbb"
 	colors.primary = "#ffffff"
 	colors.terminalBrightBlack = "#5c5c5c"
+
+	colors.string = "#f29c14"
 end
 
 return colors

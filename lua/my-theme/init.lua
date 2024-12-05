@@ -81,7 +81,7 @@ local function set_groups()
 		TabLine = { bg = colors.bgDark, fg = colors.fgInactive },
 		TabLineFill = { link = "TabLine" },
 		TabLineSel = { bg = colors.bg, fg = colors.fgAlt },
-		Search = { bg = utils.shade(colors.orangeLight, 0.40, colors.bg) },
+		Search = { bg = utils.shade(colors.string, 0.40, colors.bg) },
 		SpellBad = { undercurl = true, sp = colors.red },
 		SpellCap = { undercurl = true, sp = colors.blue },
 		SpellLocal = { undercurl = true, sp = colors.purple },
@@ -278,10 +278,10 @@ local function set_groups()
 		["@lsp.typemod.function.readonly"] = { link = "@function" },
 	}
 
-  -- integrations
-  groups = vim.tbl_extend("force", groups, cmp.highlights())
+	-- integrations
+	groups = vim.tbl_extend("force", groups, cmp.highlights())
 
-  -- overrides
+	-- overrides
 	groups =
 		vim.tbl_extend("force", groups, type(config.overrides) == "function" and config.overrides() or config.overrides)
 
