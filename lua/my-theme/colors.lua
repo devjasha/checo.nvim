@@ -81,6 +81,9 @@ else
 
 	colors.string = "#f29c14"
 	colors.functionUI = "#fee56c"
+	colors.constant = "#96df71"
+	colors.constructor = "#10a793"
+	colors.type = "#08e7c5"
 end
 
 return colors

@@ -122,7 +122,7 @@ local function set_groups()
 		Macro = { link = "Define" },
 		PreCondit = { fg = colors.red },
 
-		Type = { fg = colors.purple },
+		Type = { fg = colors.type },
 		Struct = { link = "Type" },
 		Class = { link = "Type" },
 
@@ -227,7 +227,7 @@ local function set_groups()
 		["@method"] = { link = "Function" },
 		["@field"] = { link = "Property" },
 		["@property"] = { link = "Property" },
-		["@constructor"] = { fg = colors.blue },
+		["@constructor"] = { fg = colors.constructor },
 		-- ["@conditional"] = {},
 		-- ["@repeat"] = {},
 		["@label"] = { link = "Label" },
