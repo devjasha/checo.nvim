@@ -112,7 +112,7 @@ local function set_groups()
 		Conditional = { fg = colors.red },
 		-- Repeat = {},
 		Label = { fg = colors.blue },
-		Operator = { fg = colors.primary },
+		Operator = { fg = colors.operator },
 		Keyword = { link = "Statement", italic = config.italics.keywords or false },
 		Exception = { fg = colors.red },
 
@@ -249,7 +249,7 @@ local function set_groups()
 		["@debug"] = { fg = colors.purpleDark },
 		["@tag"] = { link = "Tag" },
 		["@tag.delimiter"] = { fg = colors.symbol },
-		["@tag.attribute"] = { fg = colors.purple },
+		["@tag.attribute"] = { fg = colors.constant },
 		["@attribute"] = { link = "Attribute" },
 		["@error"] = { link = "Error" },
 		["@warning"] = { link = "WarningMsg" },
