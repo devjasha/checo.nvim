@@ -95,7 +95,7 @@ local function set_groups()
 		WildMenu = { bg = colors.bgOption },
 		Comment = { fg = colors.comment, italic = config.italics.comments or false },
 
-		Constant = { fg = colors.red },
+		Constant = { fg = colors.constant },
 		String = { fg = colors.string, italic = config.italics.strings or false },
 		Character = { fg = colors.orangeLight },
 		Number = { fg = colors.primary, bold = true },
@@ -112,7 +112,7 @@ local function set_groups()
 		Conditional = { fg = colors.red },
 		-- Repeat = {},
 		Label = { fg = colors.blue },
-		Operator = { fg = colors.red },
+		Operator = { fg = colors.operator },
 		Keyword = { link = "Statement", italic = config.italics.keywords or false },
 		Exception = { fg = colors.red },
 
