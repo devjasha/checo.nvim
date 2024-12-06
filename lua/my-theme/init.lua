@@ -227,7 +227,7 @@ local function set_groups()
 		["@method"] = { link = "Function" },
 		["@field"] = { link = "Property" },
 		["@property"] = { link = "Property" },
-		["@constructor"] = { fg = colors.constructor },
+		["@constructor"] = { fg = colors.primary },
 		-- ["@conditional"] = {},
 		-- ["@repeat"] = {},
 		["@label"] = { link = "Label" },
