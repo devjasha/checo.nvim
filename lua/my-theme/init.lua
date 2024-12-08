@@ -99,7 +99,7 @@ local function set_groups()
 		String = { fg = colors.string, italic = config.italics.strings or false },
 		Character = { fg = colors.orangeLight },
 		Number = { fg = colors.primary, bold = true },
-		Boolean = { fg = colors.blue },
+		Boolean = { fg = colors.boolean },
 		Float = { link = "Number" },
 
 		Identifier = { fg = colors.fg },

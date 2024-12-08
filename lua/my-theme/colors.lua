@@ -85,6 +85,7 @@ else
 	colors.constructor = "#10a793"
 	colors.type = "#08e7c5"
 	colors.operator = "#f29d14"
+	colors.boolean = "#96df71"
 end
 
 return colors
