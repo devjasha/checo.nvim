@@ -199,7 +199,7 @@ local function set_groups()
 		["@texcolors.todo"] = { link = "Todo" },
 		["@comment"] = { link = "Comment" },
 		["@punctuation"] = { link = "Punctuation" },
-		["@punctuation.bracket"] = { fg = colors.yellowDark },
+		["@punctuation.bracket"] = { fg = colors.primary },
 		["@punctuation.delimiter"] = { link = "Delimiter" },
 		["@punctuation.separator.keyvalue"] = { fg = colors.red },
 
