@@ -111,7 +111,7 @@ local function set_groups()
 		Statement = { fg = colors.constant },
 		Conditional = { fg = colors.red },
 		-- Repeat = {},
-		Label = { fg = colors.blue },
+		Label = { fg = colors.constructor },
 		Operator = { fg = colors.operator },
 		Keyword = { link = "Statement", italic = config.italics.keywords or false },
 		Exception = { fg = colors.red },
